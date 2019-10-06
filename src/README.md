@@ -8,13 +8,13 @@ actionLink: https://github.com/bencodezen/vuepress-blog-boilerplate
 
 features:
 - 
-    title: Feature 1
+    title: Highlight 1
     details: Feature Details!
 - 
-    title: Feature 2
+    title: Highlight 2
     details: Feature Details!
 - 
-    title: Feature 3
+    title: Highlight 3
     details: Feature Details!
 footer: php-architect.com 2019
 ---
