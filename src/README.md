@@ -1,7 +1,7 @@
 ---
 title: Home
 home: true
-heroText: php architect
+heroText: Bits and Bytes
 tagline: This blog is work in progress, Just like ME!
 actionText: Go To Github
 actionLink: https://github.com/bencodezen/vuepress-blog-boilerplate
