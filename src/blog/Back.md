@@ -10,8 +10,8 @@ blog: true
 #     - blogging
 ---
 
-## Back
+## My blog now have a new home
 
-Well, now i moved from my old blogs (me2resh.blogspot.com)[http://me2resh.blogspot.com] and (me2resh.blogspot.com)[http://me2resh.blogspot.com]to here,i hope i will find this one comfortable for me to write more often. 
+Well, now i moved from my old blogs [me2resh.blogspot.com](http://me2resh.blogspot.com) and [me2resh.blogspot.com](http://me2resh.blogspot.com) to here,i hope i will find this one comfortable for me to write more often. 
 I choosed the mac themes as i moved to Mac recently, gonna write a post later about that experience.
 See you around :)
