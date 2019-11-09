@@ -43,7 +43,7 @@
 
     <Content custom />
 
-    <div class="footer" v-if="data.footer">{{ data.footer }}</div>
+    <div class="footer" v-if="data.footer"><span v-html="data.footer"></span></div>
   </div>
 </template>
 
