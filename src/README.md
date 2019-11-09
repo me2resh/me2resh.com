@@ -23,6 +23,6 @@ features:
     title: Why VuePress is more exciting than wordpress
     details: By that time, I only used Uber for few times. Then we started talking about their referral system, which was 70 LE per referral at that time. which was enough to do a complete trip from New Cairo, or October to downtown at that time.
 
-
+footerText: This blog is work in progress, just like me!
 footer: php-architect.com 2019
 ---
