@@ -1,20 +1,28 @@
 ---
 title: Home
 home: true
-heroText: Bits and Bytes
-tagline: This blog is work in progress, Just like ME!
+heroText: Hi. I'm Ahmed
+tagline: I'm a software engineer and architect from Egypt.
+whatIDo: I am currently living in London, buildig awesome poducts at <a href="https://zavamed.com">Zava</a>.
 actionText: Go To Github
 actionLink: https://github.com/bencodezen/vuepress-blog-boilerplate
 
 features:
 - 
-    title: Highlight 1
-    details: Feature Details!
+    title: Why VuePress is more exciting than wordpress
+    details: By that time, I only used Uber for few times. Then we started talking about their referral system, which was 70 LE per referral at that time. which was enough to do a complete trip from New Cairo, or October to downtown at that time.
+
+
+
 - 
-    title: Highlight 2
-    details: Feature Details!
+    title: Why VuePress is more exciting than wordpress
+    details: By that time, I only used Uber for few times. Then we started talking about their referral system, which was 70 LE per referral at that time. which was enough to do a complete trip from New Cairo, or October to downtown at that time.
+
+
 - 
-    title: Highlight 3
-    details: Feature Details!
+    title: Why VuePress is more exciting than wordpress
+    details: By that time, I only used Uber for few times. Then we started talking about their referral system, which was 70 LE per referral at that time. which was enough to do a complete trip from New Cairo, or October to downtown at that time.
+
+
 footer: php-architect.com 2019
 ---
