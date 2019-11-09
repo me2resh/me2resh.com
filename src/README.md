@@ -2,8 +2,8 @@
 title: Home
 home: true
 heroText: Hi. I'm Ahmed
-tagline: I'm a software engineer and architect from Egypt.
-whatIDo: I am currently living in London, buildig awesome poducts at <a href="https://zavamed.com">Zava</a>.
+tagline: I am a software engineer and architect from Egypt.
+whatIDo: I live in London, building awesome poducts at <a href="https://zavamed.com">Zava</a>.
 actionText: Go To Github
 actionLink: https://github.com/bencodezen/vuepress-blog-boilerplate
 
