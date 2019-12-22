@@ -1,7 +1,7 @@
 const currentDateUTC = new Date().toUTCString()
 
 module.exports = {
-	title: 'php-architect.com',
+	title: 'Me2resh.com',
 	dest: './public',
 	themeConfig: {
 		// repo: 'https://wwww.github.com',
@@ -14,7 +14,7 @@ module.exports = {
 			{ text: 'About', link: '/about/' },
 			// { text: 'RSS Feed', link: '/rss.xml' }
 		],
-		logo: '/header-logo.png',
+		// logo: '/header-logo.png',
 		docsDir: 'src',
 		pageSize: 5,
 		startPage: 0
