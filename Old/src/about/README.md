@@ -31,4 +31,4 @@ I've studies mechatronics engineering in Ainshams Univeristy in cairo, egypt
 
 ## How you can get in touch
 * [twitter.com/me2resh](https://twitter.com/me2resh)
-* [linkedin.com/in/aabdelaliem/](https://www.linkedin.com/in/aabdelaliem/)
+* [uk.linkedin.com/aabdelaliem/](https://uk.linkedin.com/in/aabdelaliem/)

@@ -16,7 +16,7 @@
           <a target="_blank" href="https://github.com/me2resh" title="GitHub">
             <img src="github.png" alt="GitHub" />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/aabdelaliem/" title="LinkedIn">
+          <a target="_blank" href="https://uk.linkedin.com/in/aabdelaliem/" title="LinkedIn">
             <img src="linkedin.png" alt="LinkedIn" />
           </a>
         </div>
