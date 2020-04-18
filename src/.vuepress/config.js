@@ -84,8 +84,8 @@ module.exports = {
             sns: {
                 // Github account and link
                 github: {
-                    account: 'meteorlxy',
-                    link: 'https://github.com/serverlessSchool',
+                    account: 'me2resh',
+                    link: 'https://github.com/me2resh',
                 },
 
                 // Facebook account and link
