@@ -13,9 +13,9 @@ module.exports = {
             lang: 'en-US',
         },
         '/ar/': {
-            lang: 'ar-AR',
-            title: 'VuePress',
-            description: 'Vue 驱动的静态网站生成器'
+          lang: 'ar-AR',
+          title: 'VuePress',
+          description: 'Vue 驱动的静态网站生成器'
         }
     },
 
@@ -62,13 +62,13 @@ module.exports = {
             nickname: 'Me2resh',
 
             // Introduction of yourself (HTML supported)
-            description: '<form  action="https://buttondown.email/api/emails/embed-subscribe/me2resh"  method="post"  target="popupwindow"  onsubmit="window.open(https://buttondown.email/me2resh, popupwindow)"  class="embeddable-buttondown-form">  <label for="bd-email">Subscribe to the newsletter</label> <br /> <br /> <input type="email" name="email" id="bd-email">  <input type="hidden" value="1" name="embed" style="outline: none;    width: 20rem;    max-width: calc(100% - 1.5em);    height: 2rem;    font-size: 0.9rem;    padding: 0 0.7rem;    border: 1px solid #cfd4db;transition: all 0.2s ease;"></input>  <input type="submit" value="Subscribe" style="    height: 1.2rem;    font-size: 0.7rem;    border: 1px solid #cfd4db;    background-color: #d9e1e4;"></input> </form>',
+            description: '<form  action="https://buttondown.email/api/emails/embed-subscribe/me2resh"  method="post"  target="popupwindow"  onsubmit="window.open(https://buttondown.email/me2resh, popupwindow)"  class="embeddable-buttondown-form">  <label for="bd-email">Subscribe to the newsletter</label> <br /> <input type="email" name="email" id="bd-email">  <input type="hidden" value="1" name="embed"></input>  <input type="submit" value="Subscribe"></input> </form>',
 
             // Email
             email: 'me2resh@gmail.com',
 
             // Your location
-            location: 'London, UK',
+            // location: 'Xi\'an City, China',
 
             // Your organization
             // organization: 'Xi\'an Jiao Tong University',
@@ -95,20 +95,15 @@ module.exports = {
                 //   },
 
                 // LinkedIn account and link
-                linkedin: {
-                    account: 'aabdelaliem',
-                    link: 'https://www.linkedin.com/in/aabdelaliem/',
-                },
-
-                // youtube: {
-                //     account: 'youtube',
-                //     link: 'https://www.youtube.com/channel/UCmjj5zCIy30vsJlelWwj_qg',
-                // },
+                //   linkedin: {
+                //     account: 'meteorlxy',
+                //     link: 'http://www.linkedin.com/in/meteorlxy',
+                //   },
 
                 // Twitter account and link
                 twitter: {
-                    account: 'Me2resh',
-                    link: 'https://twitter.com/me2resh',
+                    account: 'ServerlesSchool',
+                    link: 'https://twitter.com/ServerlesSchool',
                 },
 
                 // Sina Weibo account and link
@@ -223,9 +218,9 @@ module.exports = {
 
         // The content of your navbar links
         nav: [
-            {text: 'Home', link: '/', exact: true},
-            {text: 'Posts', link: '/posts/', exact: false},
-            {text: 'About', link: '/about/', exact: false},
+            { text: 'Home', link: '/', exact: true },
+            { text: 'Posts', link: '/posts/', exact: false },
+            { text: 'About', link: '/about/', exact: false },
         ],
 
         // Comments config. See the [Posts Comments] section below.
