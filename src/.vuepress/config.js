@@ -4,6 +4,12 @@ module.exports = {
     // Title of your website
     title: 'Me2resh',
 
+    plugins: {
+        'sitemap': {
+            hostname: 'https://me2resh.com'
+        },
+    },
+
     // Description of your website
     description: 'Me2resh Personal Website and Blog',
 
