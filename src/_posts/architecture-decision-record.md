@@ -1,9 +1,10 @@
 ---
-top: 3
-category: demo
+top: 2
+category: architecture
 tags:
-  - serverless
-date: 2019-02-01
+  - architecture
+  - adr
+date: 2019-01-02
 title: Architecture Decision Records
 ---
 

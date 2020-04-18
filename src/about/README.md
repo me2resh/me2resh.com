@@ -1,22 +1,14 @@
 # About Me
 
-## Who am I
-I am Ahmed, a self-taught software engineer whose origin story goes back to when I was a naive teenager and thought that computers are smart, then realized that they are as smart as how you are programming them to be. Thus I try my best to make them smart as I was expecting them to be.
+I am a software Craftsman, tech lead, pursuer of value and quality.
 
-I spent most of my life in Egypt and after touring around some countries, I landed in UK where I work and live now with my small family.
+I have been writing software professionally since 2004, and leading teams since 2009, at startups, and well-established companies.
 
-## What I am interested in
+### What I am interested in
 I am interested in designing solutions / architectures for business domains that makes a difference in human lives and have a challenging technology problem.
 
-## Which technologies and tools I use
-- **2019:** PHP / NodeJS / GoLang / Clouformation / AWS Sam / Lambda
-- **2018:** PHP / NodeJS / Serverless / Lambda / Step Functions
-- **2017:** PHP
-- **2015:** PHP / Python
-- **2003 -> 2014:** PHP / Perl / Javascript / HTML
+### Career Highlights
 
-
-## Where I've worked
 - **Zavamed**       Lead engineer
 - **TimeDoctor**    Systems Architect
 - **camelCaseTech** Tech Lead
@@ -24,11 +16,27 @@ I am interested in designing solutions / architectures for business domains that
 - **GCSSD**         Tech Lead / Architect
 - **Aroma**         Senior PHP Developer
 - **CHA**           Web Systems Analyst
-- **Compuformatix** Web Developer
+  
 
-## Where I've studied
+### Software Languages
+Golang, Node.JS, PHP, Python, Javascript
+
+### Tools of Mastery
+Cloudformation, Mysql, Jenkins, Lambda, Vue.jS, Serverless, Containers, FHIR, HL7, Step Functions, SQS, NewRelic, ELK, Kibana, Symfony, REST
+
+### Paradigms
+TDD, BDD, DDD, Agile, Ifac, Mob programming, Event Storming
+
+### Certifications
+- 2019 AWS Solutions Architect
+- 2019 HL7 FHIR Fundamentals
+- 2009 Zend Certified Engineer
+
+## What did I study
 I've studies mechatronics engineering in Ainshams Univeristy in cairo, egypt
 
 ## How you can get in touch
-* [twitter.com/me2resh](https://twitter.com/me2resh)
-* [linkedin.com/in/aabdelaliem/](https://www.linkedin.com/in/aabdelaliem/)
+* [Twitter](https://twitter.com/me2resh)
+* [Linkedin](https://www.linkedin.com/in/aabdelaliem/)
+* [Stackoverflow](https://stackoverflow.com/users/2373953/me2resh)
+* [Github](https://github.com/me2resh)
