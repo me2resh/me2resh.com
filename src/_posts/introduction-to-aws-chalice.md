@@ -12,6 +12,7 @@ title: Introduction to aws chalice
 
 Adoption for Serverless is growing across the tech companies, there is always new tools to make this journey easy, 
 <!-- more -->
+
 I have been looking at Chalice, and it is one of those tools made for python lovers for fast api prototyping and easy writing of ETL jobs.
 
 ## What is AWS Chalice?
