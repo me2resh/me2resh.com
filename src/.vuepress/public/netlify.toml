@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/posts/2019/02/01/architecture-decision-record.html"
+  to = "/posts/2020/01/02/architecture-decision-record.html"
+  status = 301
