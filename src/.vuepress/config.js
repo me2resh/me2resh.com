@@ -8,6 +8,9 @@ module.exports = {
         'sitemap': {
             hostname: 'https://me2resh.com'
         },
+        '@vuepress/google-analytics': {
+            'ga': 'UA-163873546-1'
+        },
     },
 
     // Description of your website
