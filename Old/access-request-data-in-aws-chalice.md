@@ -6,17 +6,14 @@ tags:
   - chalice
   - aws
   - lambda
-date: 2020-04-18
-title: Introduction to aws chalice
+date: 2020-04-19
+title: Access Request Data in AWS Chalice
 ---
-<div dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></div>
-Adoption for Serverless is growing across the tech companies, there are always new tools to make this journey easy, 
 
+In this post, we will see how we can access the different request  types.<!-- more -->
 <!-- more -->
 
-I have been looking at Chalice, and it is one of those tools made for python lovers for fast API prototyping and easy writing of ETL jobs.
-
-## What is AWS Chalice?
+## Access URL Params
 
 
 <div style="text-align: center;"><img src="/assets/img/introduction-to-aws-chalice/chalice-logo.png" width=350></div>

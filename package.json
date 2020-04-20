@@ -10,5 +10,8 @@
     "vuepress": "^1.4.1",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-meteorlxy": "^1.8.0"
+  },
+  "devDependencies": {
+    "vuepress-plugin-social-share": "^0.2.1"
   }
 }
