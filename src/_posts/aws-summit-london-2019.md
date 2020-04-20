@@ -8,7 +8,7 @@ tags:
 date: 2019-05-09
 title: AWS Summit London 2019
 ---
-<div dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></div>
+<span dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></span>
 Yesterday I had the chance to attend AWS summit London with some of my colleagues at [Zava](https://www.zavamed.com).
 <!-- more -->
 

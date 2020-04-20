@@ -8,7 +8,7 @@ date: 2020-01-02
 title: Architecture Decision Records
 noGlobalSocialShare: false
 ---
-<div dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></div>
+<span dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></span>
 I have been looking for a way to introduce clarity over the changes made to the codebase.
 <!-- more -->
 Until I stumbled upon architecture decision record (adr)

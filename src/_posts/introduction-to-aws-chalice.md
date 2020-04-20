@@ -9,7 +9,7 @@ tags:
 date: 2020-04-18
 title: Introduction to aws chalice
 ---
-<div dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></div>
+<span dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></span>
 Adoption for Serverless is growing across the tech companies, there are always new tools to make this journey easy, 
 
 <!-- more -->
