@@ -58,9 +58,7 @@ adr init
 ```bash
 adr new use mockery for unit tests
 ```
-Your directory structure will looks like 
-
-
+Your directory structure will look like this 
 
 <img src="/assets/img/adr-1.png" width=350>
 
@@ -69,4 +67,5 @@ Your directory structure will looks like
 adr generate graph
 ```
 This will generate a graph of your decisions
+
 <img src="/assets/img/adr-2.png" width=350>
