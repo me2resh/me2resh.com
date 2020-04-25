@@ -44,7 +44,7 @@ Prerequisites:
 - Use virtualenv for installation
 ```bash
 virtualenv ~/.virtualenvs/chalice-demo
-source ~/.virtualenvs/chalice-demo/activate
+source ~/.virtualenvs/chalice-demo/bin/activate
 pip install chalice
 ```
 - Confirm Installation
