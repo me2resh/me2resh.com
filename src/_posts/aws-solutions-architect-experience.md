@@ -10,15 +10,15 @@ title: AWS Solutions Architect Associate exam experience and tips
 noGlobalSocialShare: false
 ---
 <span dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></span>
-So I have had my AWS solutions architect associate certificate last week, with a score of 939 out of 1000
+Over the past 2 years, I’ve been dealing with AWS from time to time, but that has increased significantly in the past 5 
+months When I started to do a lot of work-related to s3, lambda, and step-functions.
 <!-- more -->
 <div style="text-align: center;"><img src="/assets/img/aws-solutions-architect-experience/AWS-Certified-Solutions-Architect-Associate-certificate-300x232.jpg" width=350></div>
 
-Over the past 2 years, I’ve been dealing with AWS from time to time, but that has increased significantly in the past 5 
-months When I started to do a lot of work-related to s3, lambda, and step-functions.
+
 
 On December I’ve decided to take the architect exam to sharpen AWS/cloud skills. I prepared for it for less than a month. 
-and took the exam in Mid January.
+and took the exam in Mid January. I passed with a score of 939 out of 1000. so below are how I've prepared for it.
 
 I’ve prepared for the exam from multiple resources, but I must say that the exam itself is harder than all the practice tests I’ve seen, 
 there were some topics that never was mentioned in the materials I will mention below. but you just get them from your experience.
