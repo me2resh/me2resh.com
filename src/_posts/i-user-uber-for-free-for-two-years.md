@@ -6,7 +6,7 @@ tags:
   - growth hacking
   - hail riding
 date: 2019-05-26
-title: How I used uber for free for 2 years
+title: How I used Uber for free for 2 years
 ---
 <span dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></span>
 Between 2015 and 2017 I have referred hundreds of people to Uber, I made 42,110 LE worth of referral credit, that amount covered hundreds of my trips during that time period. 

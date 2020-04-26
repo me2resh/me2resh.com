@@ -1,5 +1,4 @@
 ---
-top: 3
 category: architecture
 tags:
   - architecture

@@ -7,7 +7,7 @@ tags:
   - aws
   - lambda
 date: 2020-04-18
-title: Introduction to aws chalice
+title: Introduction to AWS chalice
 ---
 <span dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></span>
 Adoption for Serverless is growing across the tech companies, there are always new tools to make this journey easy, 
@@ -103,7 +103,8 @@ def index():
 ```
 As you can see the code behind this is so simple, you can play with it and add another endpoint.
 
-In the next articles we will go deeper into more advanced examples with AWS Chalice.
+--- 
+In the next articles we will explore how to work with chalice CLI.
 
 
 
