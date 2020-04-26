@@ -29,6 +29,7 @@ module.exports = {
         'social-share': {
             networks: ['twitter', 'facebook', 'linkedin', 'email'],
             twitterUser: 'me2resh',
+            fallbackImage: '/assets/img/introduction-to-aws-chalice/chalice-logo.png',
             extendsNetworks,
         }
     },
