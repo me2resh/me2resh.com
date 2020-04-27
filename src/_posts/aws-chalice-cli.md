@@ -14,7 +14,7 @@ title: Working with AWS Chalice CLI
 In this article we will explore the chalice cli command and how we can work with it.
 
 <!-- more -->
-<div style="text-align: center;"><img src="/assets/img/introduction-to-aws-chalice/chalice-logo.png" width=350></div>
+<div style="text-align: center;"><img src="/assets/img/aws-chalice-cli/chalice-cli.png" width=350></div>
 
 In the previous article [Introduction to AWS Chalice](./introduction-to-aws-chalice.md) we went through creating our hello world example. 
 we will continue from there and explore the CLI
