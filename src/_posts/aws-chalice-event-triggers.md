@@ -9,7 +9,7 @@ tags:
   - sqs
   - sns
 date: 2020-05-05
-title: AWS Chalice lambda triggers
+title: AWS Chalice lambda event triggers
 ---
 <span dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></span>
 One of the powerful traits of function as a service is you can execute your function using different triggers, in this
