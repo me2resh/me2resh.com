@@ -122,6 +122,9 @@ def handle_sqs_message(event):
 
 ##  Kinesis and DynamoDB stream events
 
-Right now Chalice doesn't support both Kinesis and DynamoDB stream yet, but the proposal here [https://github.com/aws/chalice/issues/987](https://github.com/aws/chalice/issues/987) mentions it is planned for the next release. which is a good neas for the data teams.
+Right now Chalice doesn't support both Kinesis and DynamoDB stream yet, 
+but the proposal here [https://github.com/aws/chalice/issues/987](https://github.com/aws/chalice/issues/987) 
+mentions it is planned for the next release. which is a good feature for the data teams to 
+build ETL jobs based on these events.
 
 
