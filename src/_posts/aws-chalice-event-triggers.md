@@ -16,7 +16,6 @@ One of the powerful traits of function as a service is you can execute your func
  article we will go through the different triggers' chalice support.
 <!-- more -->
 
-
 ## Scheduled event
 
 <div style="text-align: center;"><img src="/assets/img/aws-chalice-lambda-triggers/Cloudwatch-scheduled-event.png" width=350></div>
