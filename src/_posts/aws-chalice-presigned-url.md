@@ -18,9 +18,11 @@ In this post we will see how aws allows us to allow users to upload and download
 
 # Why use presigned URLs
 In conventional file upload implementations, usually files are being uploaded to your server, then forwarded to permanent storage. 
+
 We can use presigned URLs to remove the overhead of file upload from the application server, When a user uploads a file to your server, he consumes resources to process the upload, 
 secure it, move it to permanent storage, this is an expensive process, and your application server is being held hostage to the users connection speed to finish 
 the upload.
+
 To have more control over the security of the file, by defining the policy attached to it when generating the presigned URL.
 
 
