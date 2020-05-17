@@ -211,14 +211,14 @@ Once deployed, we can invoke our function to get the download URL
 curl --location --request POST 'https://3stmxegzqj.execute-api.eu-west-1.amazonaws.com/api/get-download-url' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-	"filename": "image2.jpg"
+	"filename": "image.jpg"
 }'
 ```
 
 The response will have the URL we can use to download the file, it will like as follows:
 
 ```bash
-https://chalice-file-upload-example.s3.amazonaws.com/image2.jpg?AWSAccessKeyId=ASIA6HPIZFAXPSKWFOGD&Signature=Wkg7bC%2Fx4D0wYIXEUpj7Br4K6DQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCWV1LXdlc3QtMSJHMEUCIHpYLAnpdJSgafJFFlsAoLWDIIC20TYMorsOY3KomFxWAiEAisTmzRTjaE2I6UjTd9bVE1ts%2BccVAmfdZjHWHZUUR9Uq1wEIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw5NzgxMzAxMTg3MDIiDGS8uUF%2BoLRLRcM74CqrASHM9suceJ7Ct4BVy12U9V7WSpye%2Fql6klTI4YGdT2om7DSSksmVLhDIjLzy2vh5jVgSnJMUWEi62iB5sHesfzdUbQxgXDBkdVTkmcxj4oUto4D%2FTQyEl6Tp9F8TJBGkVaVPmAHzObHuCyPK0JVy6QgsfZRmxnefUSHOIpha%2BOVRK5CBFaItSBR%2BC8WXBOco3jQmMxiGxNLKqj8SBAHXwTID%2BgQg3oxns%2B%2Fs4TCd%2BoH2BTrgAYlgAkl4xudrBsgjCCG58310pIZIVxYLPlKqg8nSsymHtcc2pBT6I5WnBuOwFHrrhyWOTL2Fo5G1OAesHLuSgpHCsjfPWkNC9fNhhfa%2FzcpQEE4kHSujT1eRqP9uT3fG6fFluGKl1aafrYbl9Bs5UcA0v1Q3KTUWUaUOHiFjRSVYP%2BJdcv8V9LW0NdrrKNOpFjoX3jp2EAyextyWVFawx88zj9Je%2FW3AqhOexQSoRjgpMtWQ42QDauoDOADwbGi8IlfLsKBleYrSG%2FxMFJ%2F00QqCfdgYo30XSZCMTtH9MFAW&Expires=1589675046
+https://chalice-file-upload-example.s3.amazonaws.com/image.jpg?AWSAccessKeyId=ASIA6HPIZFAXPSKWFOGD&Signature=Wkg7bC%2Fx4D0wYIXEUpj7Br4K6DQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGgaCWV1LXdlc3QtMSJHMEUCIHpYLAnpdJSgafJFFlsAoLWDIIC20TYMorsOY3KomFxWAiEAisTmzRTjaE2I6UjTd9bVE1ts%2BccVAmfdZjHWHZUUR9Uq1wEIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw5NzgxMzAxMTg3MDIiDGS8uUF%2BoLRLRcM74CqrASHM9suceJ7Ct4BVy12U9V7WSpye%2Fql6klTI4YGdT2om7DSSksmVLhDIjLzy2vh5jVgSnJMUWEi62iB5sHesfzdUbQxgXDBkdVTkmcxj4oUto4D%2FTQyEl6Tp9F8TJBGkVaVPmAHzObHuCyPK0JVy6QgsfZRmxnefUSHOIpha%2BOVRK5CBFaItSBR%2BC8WXBOco3jQmMxiGxNLKqj8SBAHXwTID%2BgQg3oxns%2B%2Fs4TCd%2BoH2BTrgAYlgAkl4xudrBsgjCCG58310pIZIVxYLPlKqg8nSsymHtcc2pBT6I5WnBuOwFHrrhyWOTL2Fo5G1OAesHLuSgpHCsjfPWkNC9fNhhfa%2FzcpQEE4kHSujT1eRqP9uT3fG6fFluGKl1aafrYbl9Bs5UcA0v1Q3KTUWUaUOHiFjRSVYP%2BJdcv8V9LW0NdrrKNOpFjoX3jp2EAyextyWVFawx88zj9Je%2FW3AqhOexQSoRjgpMtWQ42QDauoDOADwbGi8IlfLsKBleYrSG%2FxMFJ%2F00QqCfdgYo30XSZCMTtH9MFAW&Expires=1589675046
 ```
 
 You can then open this URL in the browser to download the file, and this URL will expire once the expiry time has passed.
