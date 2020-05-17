@@ -101,8 +101,7 @@ from botocore.exceptions import ClientError
 
 app = Chalice(app_name='file-upload')
 bucket_name = "chalice-file-upload-example"
-object_name = "image.jpg"
-expiration = 1800
+expiration = 60 
 
 
 @app.route('/get-upload-url', methods=['POST'])
