@@ -14,6 +14,7 @@ title: Using presigned URLs with AWS Chalice
 In this post we will see how aws allows us to allow users to upload and download files directly to and from s3 bucket using pre-signed URLs.
 <!-- more -->
 
+<div style="text-align: center;"><img src="/assets/img/adding-custom-mapping-types-in-doctrine/upload-process.png" width=500></div>
 
 # Why use presigned URLs
 In conventional file upload implementations, usually files are being uploaded to your server, then forwarded to permanent storage. 
