@@ -6,7 +6,7 @@ tags:
   - personal
   - tips
 date: 2020-05-04
-title: My terminal setup on Mac OS
+title: My terminal setup on macOS
 ---
 <span dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></span>
 I do most of my work in the terminal, and I keep customzing it to be usable and easy on the eye. this post is to document my current setup, and will keep updating it when the setup change.
