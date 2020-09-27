@@ -1,13 +1,16 @@
 ---
-top: 3 category: serverless tags:
-
-- serverless
-- architecture
-- aws
-- lambda
-- fargate
-- api gateway
-- dynamodb date: 2020-09-27 title: Serverless mini bootcamp
+top: 3 
+category: serverless 
+tags:
+  - serverless
+  - architecture
+  - aws
+  - lambda
+  - fargate
+  - api gateway
+  - dynamodb
+date: 2020-09-27
+title: Serverless mini bootcamp
 
 ---
 <span dir=rtl><social-share :networks="['email', 'facebook', 'twitter', 'linkedin']" /></span>
