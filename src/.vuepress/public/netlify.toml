@@ -7,3 +7,4 @@
   from = "https://learn.me2resh.com"
   to = "https://www.youtube.com/channel/UCSWXhtIxc1HyMOGgW7RqzEA"
   status = 200
+  force = true
