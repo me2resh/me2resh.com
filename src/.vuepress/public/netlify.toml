@@ -8,3 +8,9 @@
   to = "https://www.youtube.com/channel/UCSWXhtIxc1HyMOGgW7RqzEA"
   status = 200
   force = true
+
+[[redirects]]
+  from = "https://www.me2resh.com/learn"
+  to = "https://www.youtube.com/channel/UCSWXhtIxc1HyMOGgW7RqzEA"
+  status = 200
+  force = true
