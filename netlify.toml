@@ -1,5 +1,0 @@
-# A redirect rule with many of the supported properties
-[[redirects]]
-  from = "https://learn.me2resh.com"
-  to = "https://www.youtube.com/channel/UCSWXhtIxc1HyMOGgW7RqzEA"
-  status = 200
