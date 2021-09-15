@@ -44,9 +44,9 @@ AND an identify fraud check is triggered
 ```
 So we are building a POST endpoint that accepts user adds a user to the database, and then sends a thank you email to the user after.
 
-We are using SendGrid as an email provider to send the thank you email utilizing their API.
+We are using [SendGrid](https://sendgrid.com/) as an email provider to send the thank you email utilizing their API.
 
-There are multiple ways to achieve that in the cloud to do this asynchronous call but I prefer [API Destinations](https://aws.amazon.com/blogs/compute/using-api-destinations-with-amazon-eventbridge/) because it is a low code approach. I won't have to write the logic to connect to SendGrid API, manage the retries, etc. I can just send the event and create a rule to call.
+There are multiple ways to achieve that in the cloud to do this asynchronous call but I prefer [API Destinations](https://aws.amazon.com/blogs/compute/using-api-destinations-with-amazon-eventbridge/) because it is a low code approach. I won't have to write the logic to connect to [SendGrid](https://sendgrid.com/) API, manage the retries, etc. I can just send the event and create a rule to call.
 
 
 ## Architecture
@@ -92,9 +92,9 @@ In this example We, we will use the default events bus, and we will use [AWS SAM
     Type: String
     Default: "arn:aws:events:eu-west-1:0000000000:event-bus/default"
   SendgridApiKey:
-    Description: Arn for central event bus
+    Description: SendGrid API Key
     Type: String
-    Default: "Bearer SendGridApiKey"
+    Default: "Bearer SendGridSecretApiKey"
 ```
 
 - Now lets Write the logic that adds the user to the dynamoDB table
