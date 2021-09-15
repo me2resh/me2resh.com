@@ -48,12 +48,14 @@ We are using SendGrid as an email provider to send the thank you email utilizing
 
 There are multiple ways to achieve that in the cloud to do this asynchronous call but I prefer [API Destinations](https://aws.amazon.com/blogs/compute/using-api-destinations-with-amazon-eventbridge/) because it is a low code approach. I won't have to write the logic to connect to SendGrid API, manage the retries, etc. I can just send the event and create a rule to call.
 
-In this example, we will use the default events bus.
 
 ## Architecture
+
 <div style="text-align: center;"><img src="/assets/img/eventbridge.png" width=800></div>
 
+> The full code explained below can be found in [Github](https://github.com/me2resh/eventbridge-api-destinations-example)
 
+In this example We, we will use the default events bus, and we will use [AWS SAM](https://aws.amazon.com/serverless/sam/) to build our project
 ## Implementation Steps:
 
 - Create our lambda functions cloudformation resource
