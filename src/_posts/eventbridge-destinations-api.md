@@ -2,30 +2,31 @@
 top: 1
 category: code
 tags:
-  - php
-  - doctrine
-  - mysql
+  - aws
+  - serverless
+  - sam
+  - eventbridge
 date: 2021-09-15
-title: Eventbridge Destinations API
+title: Eventbridge API Destinations Example using SAM
 ---
-Eventbridge is one of the powerful tools in the AWS toolbox when you move towards loosely coupled / event-driven architectures.
+[EventBridge](https://aws.amazon.com/eventbridge/) is one of the powerful tools in the AWS toolbox when you move towards loosely coupled / event-driven architectures.
 
-In this blog post, I would like to explain by example one of my use cases of event bridge using API Destinations.
+In this blog post, I would like to explain by example one of my use cases of [EventBridge](https://aws.amazon.com/eventbridge/) using [API Destinations](https://aws.amazon.com/blogs/compute/using-api-destinations-with-amazon-eventbridge/).
 
 <!-- more -->
 
 ## What is EventBridge?
 
-Eventbridge is a serverless event bus that enables you to build event-driven applications at scale using events generated from your applications.
+[EventBridge](https://aws.amazon.com/eventbridge/) is a serverless event bus that enables you to build event-driven applications at scale using events generated from your applications.
 
 ## How it works?
 
-Evnebridge connects applications using events, You can fire an event from one of your applications and define filtering rules to route them to specific targets. Those targets can be AWS Services in the same AWS account, another AWS account, or API destinations via HTTP.
+Evnebridge connects applications using events, You can fire an event from one of your applications and define filtering rules to route them to specific targets. Those targets can be AWS Services in the same AWS account, another AWS account, or [API Destinations](https://aws.amazon.com/blogs/compute/using-api-destinations-with-amazon-eventbridge/) via HTTP.
 
 
 ## What are API Destinations?
 
-API Destinations are a form of 3rd party targets(SaaS applications)that can be invoked by event bridge events using REST API calls. API Destinations supports basic, OAuth, and API Key authorization. There are many API destination partners listed here, but you can also use this feature with any 3rd party that has a REST API.
+API Destinations are a form of 3rd party targets(SaaS applications)that can be invoked by event bridge events using REST API calls. [API Destinations](https://aws.amazon.com/blogs/compute/using-api-destinations-with-amazon-eventbridge/) supports basic, OAuth, and API Key authorization. There are many API destination partners listed here, but you can also use this feature with any 3rd party that has a REST API.
 
 ## A working examples
 
@@ -45,17 +46,17 @@ So we are building a POST endpoint that accepts user adds a user to the databas
 
 We are using SendGrid as an email provider to send the thank you email utilizing their API.
 
-There are multiple ways to achieve that in the cloud to do this asynchronous call but I prefer API Destination because it is a low code approach. I won't have to write the logic to connect to SendGrid API, manage the retries, etc. I can just send the event and create a rule to call.
+There are multiple ways to achieve that in the cloud to do this asynchronous call but I prefer [API Destinations](https://aws.amazon.com/blogs/compute/using-api-destinations-with-amazon-eventbridge/) because it is a low code approach. I won't have to write the logic to connect to SendGrid API, manage the retries, etc. I can just send the event and create a rule to call.
 
 In this example, we will use the default events bus.
 
 ## Architecture
-<div style="text-align: center;"><img src="/assets/img/eventbridge.png" width=350></div>
+<div style="text-align: center;"><img src="/assets/img/eventbridge.png" width=800></div>
 
 
 ## Implementation Steps:
 
-- Add the lambda function
+- Create our lambda functions cloudformation resource
 ```yaml
 
   putUserFunction:
@@ -65,14 +66,12 @@ In this example, we will use the default events bus.
       Runtime: nodejs14.x
       MemorySize: 128
       Timeout: 100
-      Description: A simple example includes a HTTP post method to add one user to a DynamoDB table, and fire a UserCreated Event.
+      Description: A simple example includes a HTTP post method to add one user to a DynamoDB table, and send an event to eventbridge
       Policies:
-        # Give Create/Read/Update/Delete Permissions to the UserTable
         - DynamoDBCrudPolicy:
             TableName: !Ref UserTable
       Environment:
         Variables:
-          # Make table name accessible as environment variable from function code during execution
           USER_TABLE: !Ref UserTable
       Events:
         Api:
@@ -81,78 +80,56 @@ In this example, we will use the default events bus.
             Path: /user
             Method: POST
 
+
 ```
-- Add eventbridge to the template.
+- Add the Arn of the default EventBridge bus, and the SendGrid API so we refer to it in different parts of the template
 
 ```yaml
-
   CentralBusArn:
     Description: Arn for central event bus
     Type: String
-    Default: "arn:aws:events:eu-west-1:548928019564:event-bus/default"
+    Default: "arn:aws:events:eu-west-1:0000000000:event-bus/default"
+  SendgridApiKey:
+    Description: Arn for central event bus
+    Type: String
+    Default: "Bearer SendGridApiKey"
 ```
 
-- Write the lambda function
+- Now lets Write the logic that adds the user to the dynamoDB table
 
 ```javascript 
-
 const dynamodb = require('aws-sdk/clients/dynamodb');
 const docClient = new dynamodb.DocumentClient();
-
-import {uuid} from 'uuidv4';
+const { uuid } = require('uuidv4');
 
 const tableName = process.env.USER_TABLE;
 
-exports.putItemHandler = async (event) => {
-    if (event.httpMethod !== 'POST') {
-        throw new Error(`postMethod only accepts POST method, you tried: ${event.httpMethod} method.`);
-    }
-    console.info('received:', event);
+exports.putUserHandler = async (event) => {
 
     const body = JSON.parse(event.body)
-
     const userData = {id: uuid(), name: body.name, email: body.email}
 
-    var params = {
+    var dynamoDBparams = {
         TableName: tableName,
         Item: userData
     };
 
-    const result = await docClient.put(params).promise();
+    // Store the user data in the dynamoDB table
+    const result = await docClient.put(dynamoDBparams).promise();
 
-    const eventBridgeParam = {
-        Entries: [
-            {
-                // Event envelope fields
-                Source: 'com.users',
-                EventBusName: 'default',
-                DetailType: 'UserCreated',
-                Time: new Date(),
-
-                // Main event body
-                Detail: JSON.stringify(userData)
-            },
-
-        ]
-    }
-
-    await eventbridge.putEvents(eventBridgeParam).promise()
 
     const response = {
         statusCode: 200,
         body: JSON.stringify(body)
     };
 
-    console.info(`response from: ${event.path} statusCode: ${response.statusCode} body: ${response.body}`);
     return response;
 }
+
 ```
-- Give permission to the eventbridge bus
+- Next we give permission for the lambda to Put Events in EventBridge
 ```yaml 
-
-
       Policies:
-        # Give Create/Read/Update/Delete Permissions to the SampleTable
         - DynamoDBCrudPolicy:
             TableName: !Ref UserTable
         - Statement:
@@ -161,7 +138,7 @@ exports.putItemHandler = async (event) => {
                 - events:PutEvents
               Resource: "*"
 ```
-- Create the destination
+- Next Step lets create our SendGrid destination
 ```yaml
 
   SendgridApiDestination:
@@ -173,7 +150,7 @@ exports.putItemHandler = async (event) => {
       HttpMethod: POST
       InvocationRateLimitPerSecond: 300
 ```
-- Create the connection
+- Now lets create the connection to Sendgrid and refer to the API Key we added previously
 ```yaml
   SendgridConnection:
     Type: AWS::Events::Connection
@@ -183,11 +160,10 @@ exports.putItemHandler = async (event) => {
       AuthParameters:
         ApiKeyAuthParameters:
           ApiKeyName: Authorization
-          ApiKeyValue: 'Bearer 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'
+          ApiKeyValue: !Ref SendgridApiKey
 ```
 
-
-- Create the rule
+- Now we need to create the filtering rule for the destinations API with the payload we want to send to SendGrid API containing data from the UserCreated event
 ```yaml
   ApiDestinationDeliveryRule:
     Type: AWS::Events::Rule
@@ -213,25 +189,25 @@ exports.putItemHandler = async (event) => {
                   {
                     "to": [
                       {
-                        "email": "ahmed.abdelaliem@gmail.com"
+                        "email": "hello@example.com"
                       }
                     ]
                   }
                 ],
                 "from": {
-                  "email": "ahmed.abdelaliem@gmail.com"
+                  "email": "hello@example.com"
                 },
-                "subject": "<name>, Using Eventbridge Destinations is Fun",
+                "subject": "<name>, Registration Comlete",
                 "content": [
                   {
                     "type": "text/plain",
-                    "value": "and easy to do ;)"
+                    "value": "Hey <name>, Using Eventbridge Destinations is Fun and easy to do ;)"
                   }
                 ]
               }
 
 ```
-Create role io inboke the api
+- Next we create the IAM ole to allow eventbridge to Invoke an API Destination
 ```yaml
   SendgridTargetRole:
     Type: 'AWS::IAM::Role'
@@ -254,7 +230,8 @@ Create role io inboke the api
                 Action: events:InvokeApiDestination
                 Resource: !GetAtt SendgridApiDestination.Arn
 ```
-- Send the event
+- Last thing we modify our code to send the actual event to EventBridge
+
 ```javascript
     const eventBridgeParam = {
         Entries: [
@@ -275,5 +252,21 @@ Create role io inboke the api
     await eventbridge.putEvents(eventBridgeParam).promise()
 ```
 
+- Now to test, all we need to do is to invoke the lambda function by sending a POST request to the API URL
 
-This was one of my favourite use cases of Eventbridge, the full code for the examlpe is here [https://github.com/me2resh/eventbridge-api-destinations-example](https://github.com/me2resh/eventbridge-api-destinations-example)
+```bash
+curl -X POST \
+  https://bi82zcrsa4.execute-api.eu-west-1.amazonaws.com/Prod/user \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+	"name" : "Me2resh",
+	"email" : "me2resh@example.com"
+}'
+```
+You should receive the email containing the name of the user from SendGrid
+
+
+
+
+This was one of my favourite use cases of Eventbridge, the full code for the example is here [https://github.com/me2resh/eventbridge-api-destinations-example](https://github.com/me2resh/eventbridge-api-destinations-example). I hope you learned a new way to communicate with an external API through events without writing the code, and only through configuration.
