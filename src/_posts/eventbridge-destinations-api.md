@@ -7,7 +7,7 @@ tags:
   - sam
   - eventbridge
 date: 2021-09-15
-title: Calling 3rd party APIs usnig EventBridge API Destinations
+title: Calling 3rd party APIs using EventBridge API Destinations
 ---
 [EventBridge](https://aws.amazon.com/eventbridge/) is one of the powerful tools in the AWS toolbox when you move towards loosely coupled / event-driven architectures.
 
