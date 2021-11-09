@@ -90,8 +90,8 @@ module.exports = {
             // Nickname
             nickname: 'Me2resh',
 
-            // Introduction of yourself (HTML supported)
-            description: '<i>I Build things that works, I fix things that don’t</i> <br /><br /><form  action="https://buttondown.email/api/emails/embed-subscribe/me2resh"  method="post"  target="popupwindow"  onsubmit="window.open(https://buttondown.email/me2resh, popupwindow)"  class="embeddable-buttondown-form">  <label for="bd-email">Subscribe to the newsletter</label> <br /> <br /> <input type="email" name="email" id="bd-email">  <input type="hidden" value="1" name="embed" style="outline: none;    width: 20rem;    max-width: calc(100% - 1.5em);    height: 2rem;    font-size: 0.9rem;    padding: 0 0.7rem;    border: 1px solid #cfd4db;transition: all 0.2s ease;"></input>  <input type="submit" value="Subscribe" style="    height: 1.2rem;    font-size: 0.7rem;    border: 1px solid #cfd4db;    background-color: #d9e1e4;"></input> </form>',
+            // Introduction of yourself (HTML supported)"
+            description: '<i>I Build things that works, I fix things that don’t</i> <br /><br /><h3><a href="https://www.youtube.com/channel/UCSWXhtIxc1HyMOGgW7RqzEA">Youtube Channel</a></h3><iframe width="255" height="185" src="https://www.youtube.com/embed/oCWC3bYqRLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br /><br /><form  action="https://buttondown.email/api/emails/embed-subscribe/me2resh"  method="post"  target="popupwindow"  onsubmit="window.open(https://buttondown.email/me2resh, popupwindow)"  class="embeddable-buttondown-form">  <label for="bd-email">Subscribe to the newsletter</label> <br /> <br /> <input type="email" name="email" id="bd-email">  <input type="hidden" value="1" name="embed" style="outline: none;    width: 20rem;    max-width: calc(100% - 1.5em);    height: 2rem;    font-size: 0.9rem;    padding: 0 0.7rem;    border: 1px solid #cfd4db;transition: all 0.2s ease;"></input>  <input type="submit" value="Subscribe" style="    height: 1.2rem;    font-size: 0.7rem;    border: 1px solid #cfd4db;    background-color: #d9e1e4;"></input> </form>',
 
             // Email
             email: 'me2resh@gmail.com',
@@ -254,6 +254,7 @@ module.exports = {
         nav: [
             {text: 'Home', link: '/', exact: true},
             {text: 'Posts', link: '/posts/', exact: false},
+            {text: 'Videos', link: 'https://www.youtube.com/channel/UCSWXhtIxc1HyMOGgW7RqzEA', exact: false},
             {text: 'About', link: '/about/', exact: false},
         ],
 
