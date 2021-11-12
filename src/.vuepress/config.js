@@ -255,6 +255,8 @@ module.exports = {
             {text: 'Home', link: '/', exact: true},
             {text: 'Posts', link: '/posts/', exact: false},
             {text: 'Videos', link: 'https://www.youtube.com/channel/UCSWXhtIxc1HyMOGgW7RqzEA', exact: false},
+            {text: 'Github', link: 'https://github.com/me2resh', exact: false},
+            {text: 'StackOverflow', link: 'https://stackoverflow.com/users/2373953/me2resh', exact: false},
             {text: 'About', link: '/about/', exact: false},
         ],
 
