@@ -232,7 +232,7 @@ module.exports = {
             poweredByTheme: false,
 
             // Add your custom footer (HTML supported)
-            custom: 'Copyright 2004-2020 <a href="https://twitter.com/me2resh" target="_blank">Me2resh</a>',
+            custom: 'Copyright 2004-2022 <a href="https://twitter.com/me2resh" target="_blank">Me2resh</a>',
         },
 
         // Info Card Config (Optional)
