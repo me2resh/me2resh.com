@@ -26,7 +26,7 @@ I am interested in designing solutions / architectures for business domains that
 Golang, TypeScript Node.JS, PHP, Python, Javascript
 
 ### Tools of Mastery
-Cloudformation, Mysql, Jenkins, Lambda, Vue.jS, Serverless, Containers, FHIR, HL7, CDS, Step Functions, SQS, NewRelic, ELK, Kibana, Symfony, REST, C4Model, BPMN
+Cloudformation, Mysql, Jenkins, Lambda, Vue.jS, Serverless, Containers, FHIR, HL7, CDS, Step Functions, SQS, NewRelic, ELK, Kibana, Symfony, REST, C4Model, BPMN, Wardley Mapping
 
 ### Paradigms
 ADD, TDD, BDD, DDD, Agile, Ifac, Mob programming, Event Storming
