@@ -2,7 +2,11 @@
 
 I am a software Craftsman, tech lead, pursuer of value and quality.
 
+With over 15 years of engineering experience with a proven track record of designing high throughput applications, I focus on domain- driven design, cloud-native solutions, event-driven architectures, and Serverless architecture design patterns.
+
 I have been writing software professionally since 2004, and leading teams since 2009, at startups, and well-established companies.
+
+I am an architect who can ride the architecture elevator back and forth between the engine room and the penthouse, help engineers master their craft, create better solutions, quick prototypes to validate their ideas while helping CXOs and IT leaders define their business and teams' strategic direction.
 
 ### What I am interested in
 I am interested in designing solutions / architectures for business domains that makes a difference in human lives and have a challenging technology problem.
