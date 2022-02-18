@@ -9,23 +9,26 @@ I am interested in designing solutions / architectures for business domains that
 
 ### Career Highlights
 
-- **Zavamed**       Lead engineer
+- **Zavamed**       Senior Solutions Architect
 - **TimeDoctor**    Systems Architect
-- **camelCaseTech** Tech Lead
-- **Careerise**     CTO
+- **camelCaseTech** Tech Lead / Co-Founder
+- **Careerise**     CEO/CTO
 - **GCSSD**         Tech Lead / Architect
 - **Aroma**         Senior PHP Developer
 - **CHA**           Web Systems Analyst
   
 
 ### Software Languages
-Golang, Node.JS, PHP, Python, Javascript
+Golang, TypeScript Node.JS, PHP, Python, Javascript
 
 ### Tools of Mastery
-Cloudformation, Mysql, Jenkins, Lambda, Vue.jS, Serverless, Containers, FHIR, HL7, Step Functions, SQS, NewRelic, ELK, Kibana, Symfony, REST
+Cloudformation, Mysql, Jenkins, Lambda, Vue.jS, Serverless, Containers, FHIR, HL7, CDS, Step Functions, SQS, NewRelic, ELK, Kibana, Symfony, REST, C4Model, BPMN
 
 ### Paradigms
-TDD, BDD, DDD, Agile, Ifac, Mob programming, Event Storming
+ADD, TDD, BDD, DDD, Agile, Ifac, Mob programming, Event Storming
+
+### Domain Experience
+Healthtech, MedTech, Fintech, News, Post Production, Recruitment
 
 ### Certifications
 - 2019 AWS Solutions Architect
