@@ -50,7 +50,7 @@ My energy and motivation flourish in **dynamic environments** that embrace chang
 
 ## Collaboration Style
 
-In collaborative settings, I encourage **constructive dialogue**, fostering open and honest communication 🤝. I value **curiosity-driven exploration
+In collaborative settings, I encourage **constructive dialogue**, fostering open and honest communication 🤝. I value **curiosity-driven exploration** and probing questions that lead us to deeper understanding and innovative solutions. Encouraging **team ownership** is important to me, as I believe in everyone’s capability to contribute meaningfully. Together, we can chart new territories and achieve collective success 🌟.
 
 ## Preferred Communication Channels
 
