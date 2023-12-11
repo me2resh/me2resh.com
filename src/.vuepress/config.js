@@ -258,6 +258,7 @@ module.exports = {
             {text: 'Github', link: 'https://github.com/me2resh', exact: false},
             {text: 'StackOverflow', link: 'https://stackoverflow.com/users/2373953/me2resh', exact: false},
             {text: 'About', link: '/about/', exact: false},
+            {text: 'Readme', link: '/readme/', exact: false},
         ],
 
         // Comments config. See the [Posts Comments] section below.
