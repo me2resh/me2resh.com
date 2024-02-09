@@ -1,6 +1,6 @@
 # About Me
 
-I am a software craftsman, tech lead, and relentless pursuer of value and quality.
+I am a software craftsman, Architect, and relentless pursuer of value and quality.
 
 With over 18 years of engineering experience and a proven track record of designing high-throughput applications, my focus is domain-driven design, cloud-native solutions, event-driven architectures, and serverless architecture design patterns.
 
@@ -12,8 +12,9 @@ As an architect, I can navigate the architecture elevator between the engine roo
 I am passionate about designing solutions and architectures for business domains that make a difference in people's lives and pose challenging technology problems.
 
 ## Career Highlights
-
-- **Zavamed**       Senior Solutions Architect
+- Current           Head of Architecture
+- **Practi**        Head of Technology
+- **Zavamed**       Head of Architecture
 - **TimeDoctor**    Systems Architect
 - **camelCaseTech** Tech Lead / Co-Founder
 - **Careerise**     CEO & Founder
@@ -31,18 +32,19 @@ CloudFormation, MySQL, Jenkins, Lambda, Vue.js, Serverless, Containers, FHIR, HL
 ADD, TDD, BDD, DDD, Agile, Ifac, Mob Programming, Event Storming
 
 ## Domain Experience
-Healthtech, MedTech, Telehealth, Fintech, News, Post Production, Recruitment
+Manufacturing, Process Automation, Healthtech, MedTech, Telehealth, Fintech, News, Post Production, Recruitment
 
 ## Certifications
-- 2019 AWS Solutions Architect
+- 2022 AWS Solutions Architect Professional
+- 2019 AWS Solutions Architect Associate
 - 2019 HL7 FHIR Fundamentals
 - 2009 Zend Certified Engineer
 
 ## Education
-I studied mechatronics engineering at Ain Shams University in Cairo, Egypt.
+I studied in MIT Exeuctive education program; Launching HealthTech Innovation 2022
+And graduated from mechatronics engineering at Ain Shams University in Cairo, Egypt.
 
 ## Get in Touch
 * [Twitter](https://twitter.com/me2resh)
-* [LinkedIn](https://www.linkedin.com/in/aabdelaliem/)
 * [Stack Overflow](https://stackoverflow.com/users/2373953/me2resh)
 * [GitHub](https://github.com/me2resh)
