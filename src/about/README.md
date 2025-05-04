@@ -12,7 +12,7 @@ As an architect, I can navigate the architecture elevator between the engine roo
 I am passionate about designing solutions and architectures for business domains that make a difference in people's lives and pose challenging technology problems.
 
 ## Career Highlights
-- Current           Head of Architecture
+- Current           Head of Platform
 - **Practi**        Head of Technology
 - **Zavamed**       Head of Architecture
 - **TimeDoctor**    Systems Architect
