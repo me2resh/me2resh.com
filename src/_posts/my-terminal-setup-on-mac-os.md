@@ -86,6 +86,14 @@ then apply your changes by running
 ```bash 
 source ~/.zshrc
 ```
+
+## wget
+Install wget so we are able to download themes
+
+```bash
+brew install wget
+```
+
 #### Themes
 Changing theme is as simple as changing a string in your configuration file. The default theme is robbyrussell.
  Just change that value to change theme, and don't forget to apply your changes.
