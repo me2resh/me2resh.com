@@ -65,7 +65,7 @@ Plugins
 Add plugins to your shell by adding the name of the plugin to the plugin array in your .zshrc.
 
 ```
-plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlighting zsh-autosuggestions virtualenv)
+plugins=(git colored-man-pages colorize pip python brew macos zsh-syntax-highlighting zsh-autosuggestions virtualenv)
 ```
 
 You will need to manually install the autosuggestions and highlighting plugins
