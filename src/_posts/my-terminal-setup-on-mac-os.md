@@ -29,6 +29,13 @@ In **Finder**, drag and drop the **iTerm** Application file into the **Applicati
 
 You can now launch iTerm, through the **Launchpad** for instance.
 
+## brew
+What Does Homebrew Do? Homebrew installs the stuff you need that Apple (or your Linux system) didn't. 
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ## ZSH
 ZSH, also called the Z shell, is an extended version of the Bourne Shell (sh), with plenty of new features, and support for plugins and themes. Since it’s based on the same shell as Bash, ZSH has many of the same features, and switching over is a breeze.
 
