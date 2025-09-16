@@ -1,48 +1,46 @@
 # About Me
 
-I am a software craftsman, Architect, and relentless pursuer of value and quality.
+I am a technology leader, architect, and software craftsman with over 20 years of experience building platforms and solutions across healthcare, life sciences, manufacturing, and e-commerce.
 
-With over 18 years of engineering experience and a proven track record of designing high-throughput applications, my focus is domain-driven design, cloud-native solutions, event-driven architectures, and serverless architecture design patterns.
+My expertise spans cloud-native and serverless systems, event-driven architectures, and developer experience at scale. I have a proven record of leading platform engineering, architecture, and SRE teams to deliver secure, scalable systems that balance business impact with technical excellence.
 
-I have been writing software professionally since 2004, leading teams since 2009, and working at startups and well-established companies.
-
-As an architect, I can navigate the architecture elevator between the engine room and the penthouse, helping engineers master their craft and create better solutions. I also build quick prototypes to validate ideas while assisting CXOs and IT leaders define their business and teams' strategic direction.
+Since 2004, I have been writing software professionally; since 2009, I have been leading teams and shaping technology strategy. As an architect, I can navigate the "architecture elevator" — from the engine room to the boardroom — helping engineers master their craft while guiding executives in defining business and technology direction. I also enjoy prototyping ideas quickly to validate solutions and unlock opportunities.
 
 ## Interests
-I am passionate about designing solutions and architectures for business domains that make a difference in people's lives and pose challenging technology problems.
+
+I am passionate about governance at scale, platform thinking, and AI adoption in engineering. I thrive on solving complex problems that sit at the intersection of technology and business domains.
 
 ## Career Highlights
-- Current           Head of Platform
-- **Practi**        Head of Technology
-- **Zavamed**       Head of Architecture
-- **TimeDoctor**    Systems Architect
-- **camelCaseTech** Tech Lead / Co-Founder
-- **Careerise**     CEO & Founder
-- **GCSSD**         Tech Lead / Architect
-- **Aroma**         Senior PHP Developer
-- **CHA**           Web Systems Analyst
+- **MOO** Head of Platform
+- **MOO** Head of Architecture
+- **Practi (Simplyhealth)** Head of Technology
+- **Zava (acquired by Hims & Hers)** Head of Architecture
+- **Time Doctor** Systems Architect
+- **camelCase Tech** Co-Founder & Tech Lead
+- **Careerise** CEO & Founder
+- **GCSSD** Tech Lead
+- **Aroma** Senior Engineer
+- **CHA** Analyst
 
-## Software Languages
-Golang, TypeScript, Node.js, PHP, Python, JavaScript
+## Skills & Tools
 
-## Tools of Mastery
-CloudFormation, MySQL, Jenkins, Lambda, Vue.js, Serverless, Containers, FHIR, HL7, CDS, Step Functions, SQS, New Relic, ELK, Kibana, Symfony, REST, C4Model, BPMN, Wardley Mapping
+**Languages:** Go, TypeScript, Node.js, Python, PHP
 
-## Paradigms
-ADD, TDD, BDD, DDD, Agile, Ifac, Mob Programming, Event Storming
+**Architectural Practices:** DDD, ADD, Event Storming, Wardley Mapping, C4 Model
 
-## Domain Experience
-Manufacturing, Process Automation, Healthtech, MedTech, Telehealth, Fintech, News, Post Production, Recruitment
+**Platforms & Tools:** AWS, CloudFormation, Lambda, Containers, Serverless, SQS, Step Functions, Kibana, New Relic
+
+**Domains:** Platform Engineering, HealthTech, MedTech, FinTech, E-commerce, Manufacturing, Recruitment, Media
 
 ## Certifications
-- 2022 AWS Solutions Architect Professional
-- 2019 AWS Solutions Architect Associate
-- 2019 HL7 FHIR Fundamentals
-- 2009 Zend Certified Engineer
+- AWS Certified Solutions Architect – Professional (2022)
+- AWS Certified Solutions Architect – Associate (2019)
+- HL7 FHIR Fundamentals (2019)
+- Zend Certified Engineer (2009)
 
 ## Education
-I studied in MIT Exeuctive education program; Launching HealthTech Innovation 2022
-And graduated from mechatronics engineering at Ain Shams University in Cairo, Egypt.
+- MIT Executive Education – Launching HealthTech Innovation (2022)
+- BSc Mechatronics Engineering – Ain Shams University, Cairo
 
 ## Get in Touch
 * [Twitter](https://twitter.com/me2resh)

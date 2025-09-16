@@ -6,12 +6,12 @@
     "build:docs": "vuepress build docs"
   },
   "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.7",
-    "vuepress": "^1.9.7",
+    "@vuepress/plugin-google-analytics": "^1.9.10",
+    "vuepress": "^1.9.10",
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-theme-meteorlxy": "^1.8.0"
+    "vuepress-theme-meteorlxy": "^1.9.0"
   },
   "devDependencies": {
-    "vuepress-plugin-social-share": "^0.2.1"
+    "vuepress-plugin-social-share": "^1.4.0"
   }
 }
