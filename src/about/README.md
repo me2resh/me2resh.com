@@ -2,7 +2,7 @@
 
 I am a technology leader, architect, and software craftsman with over 20 years of experience building platforms and solutions across healthcare, life sciences, manufacturing, and e-commerce.
 
-My expertise spans cloud-native and serverless systems, event-driven architectures, and developer experience at scale. I have a proven record of leading platform engineering, architecture, and SRE teams to deliver secure, scalable systems that balance business impact with technical excellence.
+My expertise spans cloud-native and serverless systems, event-driven architectures, and developer experience at scale. I have a proven record of leading platform engineering and architecture teams to deliver secure, scalable systems that balance business impact with technical excellence.
 
 Since 2004, I have been writing software professionally; since 2009, I have been leading teams and shaping technology strategy. As an architect, I can navigate the "architecture elevator" — from the engine room to the boardroom — helping engineers master their craft while guiding executives in defining business and technology direction. I also enjoy prototyping ideas quickly to validate solutions and unlock opportunities.
 
@@ -11,7 +11,7 @@ Since 2004, I have been writing software professionally; since 2009, I have been
 I am passionate about governance at scale, platform thinking, and AI adoption in engineering. I thrive on solving complex problems that sit at the intersection of technology and business domains.
 
 ## Career Highlights
-- **MOO** Head of Platform
+- Current Head of Platform
 - **MOO** Head of Architecture
 - **Practi (Simplyhealth)** Head of Technology
 - **Zava (acquired by Hims & Hers)** Head of Architecture
